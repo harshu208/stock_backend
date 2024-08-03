@@ -1,0 +1,11 @@
+{
+    "SYMBOLS": [
+        "AAPL",
+        "GOOGL",
+        "AMZN",
+        "MSFT",
+        "TSLA"
+    ],
+    "FINHUB_QUOTE_URI" : "https://finnhub.io/api/v1/quote",
+    "FINHUB_TOKEN" : "cqmq4r9r01qjs6occh2gcqmq4r9r01qjs6occh30"
+}
