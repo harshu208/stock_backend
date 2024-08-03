@@ -55,10 +55,8 @@ wss.on('connection', ws => {
         ws.send(JSON.stringify(mockData)); 
     }
     const intervalId = setInterval(sendLatestStocks, 9000);
-    const newIntervalId = setInterval(sendManualStockData, 21000 );
     ws.on('close', () => {
         clearInterval(intervalId)
-        clearTimeout(newIntervalId);
     });
 })
 server.listen(PORT, () => {
